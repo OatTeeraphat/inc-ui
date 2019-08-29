@@ -1,0 +1,177 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 16/06/2017 11:38
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="glyph-feater-"]:before, [class*=" glyph-feater-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-size: 1em; 
+  font-family: Flaticon;
+  font-style: normal;
+  color: #000;
+}
+
+.glyph-feater-zoom-out:before { content: "\f100"; }
+.glyph-feater-zoom-in:before { content: "\f101"; }
+.glyph-feater-thunderbolt:before { content: "\f102"; }
+.glyph-feater-close-2:before { content: "\f103"; }
+.glyph-feater-close-1:before { content: "\f104"; }
+.glyph-feater-close:before { content: "\f105"; }
+.glyph-feater-wind:before { content: "\f106"; }
+.glyph-feater-watch:before { content: "\f107"; }
+.glyph-feater-video-camera-1:before { content: "\f108"; }
+.glyph-feater-video-camera:before { content: "\f109"; }
+.glyph-feater-user-2:before { content: "\f10a"; }
+.glyph-feater-user-1:before { content: "\f10b"; }
+.glyph-feater-user:before { content: "\f10c"; }
+.glyph-feater-upload-2:before { content: "\f10d"; }
+.glyph-feater-upload-1:before { content: "\f10e"; }
+.glyph-feater-unlock:before { content: "\f10f"; }
+.glyph-feater-umbrella:before { content: "\f110"; }
+.glyph-feater-twitter:before { content: "\f111"; }
+.glyph-feater-triangle:before { content: "\f112"; }
+.glyph-feater-trash-1:before { content: "\f113"; }
+.glyph-feater-trash:before { content: "\f114"; }
+.glyph-feater-switch-1:before { content: "\f115"; }
+.glyph-feater-switch:before { content: "\f116"; }
+.glyph-feater-like:before { content: "\f117"; }
+.glyph-feater-dislike:before { content: "\f118"; }
+.glyph-feater-thermometer:before { content: "\f119"; }
+.glyph-feater-target:before { content: "\f11a"; }
+.glyph-feater-tag:before { content: "\f11b"; }
+.glyph-feater-sunset:before { content: "\f11c"; }
+.glyph-feater-sunrise:before { content: "\f11d"; }
+.glyph-feater-sun:before { content: "\f11e"; }
+.glyph-feater-star:before { content: "\f11f"; }
+.glyph-feater-square:before { content: "\f120"; }
+.glyph-feater-prohibition:before { content: "\f121"; }
+.glyph-feater-share:before { content: "\f122"; }
+.glyph-feater-search:before { content: "\f123"; }
+.glyph-feater-scissors:before { content: "\f124"; }
+.glyph-feater-rotate-1:before { content: "\f125"; }
+.glyph-feater-rotate:before { content: "\f126"; }
+.glyph-feater-refresh-1:before { content: "\f127"; }
+.glyph-feater-refresh:before { content: "\f128"; }
+.glyph-feater-wifi:before { content: "\f129"; }
+.glyph-feater-printer:before { content: "\f12a"; }
+.glyph-feater-power-button:before { content: "\f12b"; }
+.glyph-feater-pocket:before { content: "\f12c"; }
+.glyph-feater-add-2:before { content: "\f12d"; }
+.glyph-feater-add-1:before { content: "\f12e"; }
+.glyph-feater-add:before { content: "\f12f"; }
+.glyph-feater-play:before { content: "\f130"; }
+.glyph-feater-pie-chart:before { content: "\f131"; }
+.glyph-feater-phone-call-6:before { content: "\f132"; }
+.glyph-feater-phone-call-5:before { content: "\f133"; }
+.glyph-feater-phone-call-4:before { content: "\f134"; }
+.glyph-feater-phone-call-3:before { content: "\f135"; }
+.glyph-feater-phone-call-2:before { content: "\f136"; }
+.glyph-feater-phone-call-1:before { content: "\f137"; }
+.glyph-feater-phone-call:before { content: "\f138"; }
+.glyph-feater-pause:before { content: "\f139"; }
+.glyph-feater-octagon:before { content: "\f13a"; }
+.glyph-feater-musical-note:before { content: "\f13b"; }
+.glyph-feater-move:before { content: "\f13c"; }
+.glyph-feater-moon:before { content: "\f13d"; }
+.glyph-feater-monitor-1:before { content: "\f13e"; }
+.glyph-feater-minus-2:before { content: "\f13f"; }
+.glyph-feater-minus-1:before { content: "\f140"; }
+.glyph-feater-minus:before { content: "\f141"; }
+.glyph-feater-minimize-1:before { content: "\f142"; }
+.glyph-feater-minimize:before { content: "\f143"; }
+.glyph-feater-voice-recording-1:before { content: "\f144"; }
+.glyph-feater-voice-recording:before { content: "\f145"; }
+.glyph-feater-menu:before { content: "\f146"; }
+.glyph-feater-maximize-1:before { content: "\f147"; }
+.glyph-feater-maximize:before { content: "\f148"; }
+.glyph-feater-map:before { content: "\f149"; }
+.glyph-feater-placeholder:before { content: "\f14a"; }
+.glyph-feater-email:before { content: "\f14b"; }
+.glyph-feater-padlock:before { content: "\f14c"; }
+.glyph-feater-loading:before { content: "\f14d"; }
+.glyph-feater-lifebuoy:before { content: "\f14e"; }
+.glyph-feater-layout:before { content: "\f14f"; }
+.glyph-feater-layers:before { content: "\f150"; }
+.glyph-feater-instagram:before { content: "\f151"; }
+.glyph-feater-info:before { content: "\f152"; }
+.glyph-feater-inbox:before { content: "\f153"; }
+.glyph-feater-image:before { content: "\f154"; }
+.glyph-feater-home:before { content: "\f155"; }
+.glyph-feater-heart:before { content: "\f156"; }
+.glyph-feater-headphones:before { content: "\f157"; }
+.glyph-feater-hash:before { content: "\f158"; }
+.glyph-feater-grid:before { content: "\f159"; }
+.glyph-feater-worldwide:before { content: "\f15a"; }
+.glyph-feater-folder:before { content: "\f15b"; }
+.glyph-feater-flag:before { content: "\f15c"; }
+.glyph-feater-filter:before { content: "\f15d"; }
+.glyph-feater-file:before { content: "\f15e"; }
+.glyph-feater-feather:before { content: "\f15f"; }
+.glyph-feater-facebook:before { content: "\f160"; }
+.glyph-feater-visualization:before { content: "\f161"; }
+.glyph-feater-hide:before { content: "\f162"; }
+.glyph-feater-external:before { content: "\f163"; }
+.glyph-feater-edit:before { content: "\f164"; }
+.glyph-feater-droplet:before { content: "\f165"; }
+.glyph-feater-download-1:before { content: "\f166"; }
+.glyph-feater-cloud-computing-1:before { content: "\f167"; }
+.glyph-feater-compact-disc:before { content: "\f168"; }
+.glyph-feater-delete:before { content: "\f169"; }
+.glyph-feater-cpu:before { content: "\f16a"; }
+.glyph-feater-chat-1:before { content: "\f16b"; }
+.glyph-feater-chat:before { content: "\f16c"; }
+.glyph-feater-command:before { content: "\f16d"; }
+.glyph-feater-settings:before { content: "\f16e"; }
+.glyph-feater-cloud:before { content: "\f16f"; }
+.glyph-feater-cloud-computing:before { content: "\f170"; }
+.glyph-feater-clock:before { content: "\f171"; }
+.glyph-feater-circle:before { content: "\f172"; }
+.glyph-feater-check-2:before { content: "\f173"; }
+.glyph-feater-check-1:before { content: "\f174"; }
+.glyph-feater-check:before { content: "\f175"; }
+.glyph-feater-photo-camera:before { content: "\f176"; }
+.glyph-feater-no-photo:before { content: "\f177"; }
+.glyph-feater-briefcase:before { content: "\f178"; }
+.glyph-feater-cube:before { content: "\f179"; }
+.glyph-feater-bookmark:before { content: "\f17a"; }
+.glyph-feater-bluetooth:before { content: "\f17b"; }
+.glyph-feater-bell-1:before { content: "\f17c"; }
+.glyph-feater-bell:before { content: "\f17d"; }
+.glyph-feater-battery:before { content: "\f17e"; }
+.glyph-feater-bar-chart-1:before { content: "\f17f"; }
+.glyph-feater-bar-chart:before { content: "\f180"; }
+.glyph-feater-medal:before { content: "\f181"; }
+.glyph-feater-at:before { content: "\f182"; }
+.glyph-feater-upload:before { content: "\f183"; }
+.glyph-feater-right-arrow:before { content: "\f184"; }
+.glyph-feater-left-arrow:before { content: "\f185"; }
+.glyph-feater-download:before { content: "\f186"; }
+.glyph-feater-shutter:before { content: "\f187"; }
+.glyph-feater-anchor:before { content: "\f188"; }
+.glyph-feater-right-alignment:before { content: "\f189"; }
+.glyph-feater-left-alignment:before { content: "\f18a"; }
+.glyph-feater-justify:before { content: "\f18b"; }
+.glyph-feater-center-align:before { content: "\f18c"; }
+.glyph-feater-warning-2:before { content: "\f18d"; }
+.glyph-feater-warning-1:before { content: "\f18e"; }
+.glyph-feater-warning:before { content: "\f18f"; }
+.glyph-feater-monitor:before { content: "\f190"; }
+.glyph-feater-sound-waves:before { content: "\f191"; }

@@ -34,6 +34,11 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .fullpage{ position: relative;height: 100vh;min-height: 767px;}
 .fullpage-container{ height: calc(100vh - 80px); min-height: calc(767px - 80px); }
 .fullpage-container > div {height: 100%;}
+.avatar{ width: 50px; height: 50px; position: relative; } 
+.avatar .thumbnail{ border-radius: 50%; } 
+.avatar .thumbnail-icon{} 
+.thumbnail{border-radius: 100%;} 
+.thumbnail-icon{position: absolute;right: -5px;bottom: 0;width: 18px;}
 
 
 .glyph-icon.glyph-xl{ font-size: 1em;}
@@ -50,9 +55,33 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 
 .wizard{background-position: bottom 15px center;background-size: 75vh;background-repeat: no-repeat;padding-top: 30px;}
 .wizard-page_1{background-size: 65vh;background-position: bottom 15px center;}
-.wizard-page_1-content{
+.wizard-page_1-content{ position: relative; }
+
+.wizard-page_2{
+    background-position: 50% 33%;
+    background-size: 120vh;
     position: relative;
 }
+.wizard-page_2-list{}
+.wizard-page_2-content{}
+.wizard-page_2-artwork{
+    position: absolute;
+    right: 65px;
+    top: calc(50% + 45px);
+    width: 100%;
+    max-width: 350px;
+}
+
+.scroll-view{}
+.scroll-view-avatar{width: 56px;height: 56px;border-radius: 20px;position: relative;display: flex;margin: 10px 15px;}
+.scroll-view-content{flex: 1;display: flex;padding: 15px;justify-content: space-between;align-items: center;}
+.scroll-view-content p{ line-height: 1; margin: 0; font-size: 1.15em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-family: "thaisans_neuesemi_bold"; }
+.scroll-view-content button{ font-size: 0.925em; cursor: pointer; }
+.scroll-view-content .glyph-icon::before{
+    color: #fff;
+    font-size: 0.8em;
+}
+
 
 .input-primary{max-width: 750px;margin: 0px 15px;padding: 5px 30px 5px 15px;position: relative;width: 100%;border: 3px solid #744cdc;border-radius: 5px;background: #fff;box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.10);z-index: 2;}
 .input-primary-desc{position: absolute;top: calc(50% - 0.7em);left: 20px;font-size: 1.1em;opacity: 0.55;transition: all 0.166s ease;width: calc(100% - 90px);white-space: nowrap;overflow: hidden;text-overflow: ellipsis;z-index: 0;}
@@ -67,6 +96,12 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .dropdown-primary li button{font-family: "thaisans_neuesemi_bold";width: 100%;text-align: left;line-height: 1em;padding: 15px 15px 10px;background: #fff;border: none;border-radius: 5px;transition: all 0.3s ease;}
 .dropdown-primary li button:focus, .dropdown-primary li button:hover, .dropdown-primary li.active button{ background: #734cdb; color: #fff; }
 .dropdown-primary li:first-child button{/* margin-top: 15px; */}
+
+.scroll-view{background: #fff;width: 100%;max-width: 750px;margin: 0 15px;min-height: 50vh;height: 50vh;border-radius: 5px;box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.10);border: 3px solid #673AB7;overflow-y: auto;overflow-x: hidden;}
+.scroll-view ul{ list-style: none; margin: 0; padding: 0; }
+.scroll-view li{ margin: 0 15px; padding: 15px; border-bottom: 1px solid rgba(158, 158, 158, 0.39); }
+
+
 
 
 @media (max-width: 990px) {
@@ -127,8 +162,6 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 
 @media (min-height: 1281px) {
 
-	
-	.wizard{}
-	.wizard-page_1{}
 	.wizard-page_1 {background-size: 77.5vh;background-position: bottom -30px center;font-size: 1.45em;}
+
 }

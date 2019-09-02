@@ -67,16 +67,16 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .wizard-page_2-artwork{
     position: absolute;
     right: 65px;
-    top: calc(50% + 45px);
-    width: 100%;
-    max-width: 350px;
+    bottom: 80px;
+    height: 30vh;
+    width: auto;
 }
 
 .scroll-view{}
-.scroll-view-avatar{width: 56px;height: 56px;border-radius: 20px;position: relative;display: flex;margin: 10px 15px;}
-.scroll-view-content{flex: 1;display: flex;padding: 15px;justify-content: space-between;align-items: center;}
-.scroll-view-content p{ line-height: 1; margin: 0; font-size: 1.15em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-family: "thaisans_neuesemi_bold"; }
-.scroll-view-content button{ font-size: 0.925em; cursor: pointer; }
+.scroll-view-avatar{max-width: 56px;width: 100%;height: 56px;border-radius: 20px;position: relative;display: flex;margin: 10px 15px;}
+.scroll-view-content{display: flex;flex: 1;padding: 15px;justify-content: space-between;align-items: center;overflow: hidden;}
+.scroll-view-content p{line-height: 1;margin: 0;font-size: 1.15em;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-family: "thaisans_neuebold";float: right;}
+.scroll-view-content button{font-size: 0.925em;cursor: pointer;text-align: center;justify-content: center;}
 .scroll-view-content .glyph-icon::before{
     color: #fff;
     font-size: 0.8em;
@@ -97,25 +97,30 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .dropdown-primary li button:focus, .dropdown-primary li button:hover, .dropdown-primary li.active button{ background: #734cdb; color: #fff; }
 .dropdown-primary li:first-child button{/* margin-top: 15px; */}
 
-.scroll-view{background: #fff;width: 100%;max-width: 750px;margin: 0 15px;min-height: 50vh;height: 50vh;border-radius: 5px;box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.10);border: 3px solid #673AB7;overflow-y: auto;overflow-x: hidden;}
-.scroll-view ul{ list-style: none; margin: 0; padding: 0; }
+.scroll-view{background: #fff;width: 100%;max-width: 750px;margin: 0 15px;max-height: 450px;height: 50vh;border-radius: 5px;box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.10);border: 3px solid #673AB7;overflow-y: auto;overflow-x: hidden;}
+.scroll-view ul{list-style: none;margin: 0;padding: 5px 0;}
 .scroll-view li{ margin: 0 15px; padding: 15px; border-bottom: 1px solid rgba(158, 158, 158, 0.39); }
-
+.scroll-view li:last-child{ border-bottom: none; }
 
 
 
 @media (max-width: 990px) {
 
-    .wizard-page_1 {background-size: 90%; /* Force the image to its minimum width */background-position: bottom 5px center;}
 	.input-primary{max-width: 80vw;}
 	.dropdown-primary{max-width: 80vw;}
+	.scroll-view{ max-width: 80vw; }
+
+	.wizard-page_1 {background-size: 90%; /* Force the image to its minimum width */background-position: bottom 5px center;}
+	.wizard-page_2{}
+
 
 }
 
 @media (max-width: 767px) {
 
 	.input-primary{margin: 0px;max-width: 90vw;}
-	.dropdown-primary{max-width: 90vw;margin: 0;}
+	.dropdown-primary{max-width: 90vw;margin: 0 auto;}
+	.scroll-view{}
 
 }
 
@@ -134,11 +139,21 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 	.dropdown-primary ul{max-height: 250px;}
 	.dropdown-primary li button{ padding: 10px 10px 7px; }
 
+	.scroll-view{max-height: 40vh;max-width: 90vw;}
+	.scroll-view-avatar{ max-width: 45px; width: 100%; height: 45px; margin: 5px; }
+
 	.input-primary-input:focus ~ .input-primary-button, .input-primary-input:active ~ .input-primary-button{ top: 1.5em }
 	.input-primary-input:not([value=""]) ~ .input-primary-button { top: 1.5em }
 
 	.wizard{ padding-top: 1em; background-position: bottom center; }
 	.wizard-page_1 {background-size: 55.5vh;min-height: inherit;}
+	.wizard-page_2-artwork{
+    right: 0;
+    bottom: 60px;
+    height: 25vh;
+}
+.wizard-page_2 .h1{padding: 0 15px;line-height: 0.90em;margin-bottom: 0.125em !important;margin-top: 5px;}
+
 	
  }
 

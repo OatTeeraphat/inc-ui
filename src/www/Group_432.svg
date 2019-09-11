@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1919.999" height="1080" viewBox="0 0 1919.999 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7753e5;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#45e5ce"/>
+      <stop offset="1" stop-color="#2ed8be"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_432" data-name="Group 432" transform="translate(-0.001 0)">
+    <g id="Group_433" data-name="Group 433">
+      <path id="Intersection_2" data-name="Intersection 2" class="cls-1" d="M-8424.649,492.074c-19.284-69.544-13.408-143.846,27.033-213.891,64.167-111.143,148.669-91.374,265.277-71.6,37.717,6.394,78.8,12.788,123.628,14.752V492.074Zm-35.061-346a33,33,0,0,1,33-33,33,33,0,0,1,33,33,33,33,0,0,1-33,33A33,33,0,0,1-8459.71,146.075Z" transform="translate(9928.711 587.926)"/>
+      <path id="Intersection_1" data-name="Intersection 1" class="cls-2" d="M-7535.4,581.476h541.826a605.9,605.9,0,0,1,26.55,94.61c80.946,412.42-169.628,194.525-413.524,621.9-42.992,75.333-96.02,130.806-154.852,169.022Z" transform="translate(7535.398 -581.476)"/>
+    </g>
+  </g>
+</svg>

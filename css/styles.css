@@ -7,7 +7,7 @@ h1, h2, .h1, .h2{font-family: 'thaisans_neuebold';font-size: 2.5em;}
 h1, h2, .h1, .h2{margin-bottom: 5px;}
 h1, h2, .h1, .h2, .btn, input, button{letter-spacing: 1px;}
 
-h3, .h3{font-family: 'thaisans_neuebold';font-size: 1.85em;}
+h3, .h3{font-family: 'thaisans_neuebold';font-size: 2.2em;letter-spacing: 0px;}
 
 body.bg-img::before{content: "";width: 50vh;height: 76vh;background-size: 100%;background-repeat: no-repeat;position: fixed;top: 0;left: 0;}
 body.bg-img::after{content: "";width: 40vh;height: 32.5vh;background-size: 100%;position: fixed;bottom: 0;right: 0;z-index: -1;}
@@ -39,7 +39,7 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .modals{}
 .modals-body{width: 100%;background: #fff;min-height: 300px;max-width: 1600px;border-radius: 5px;box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);}
 .modals-md{width: 100vw;height: 100vh;position: fixed;top: 0;background: rgba(0, 0, 0, 0.5);display: flex;align-items: center;}
-.modals-md .modals-body {width: 40vw;max-width: 600px;position: absolute;left: 0;right: 0;margin: 0 auto;padding: 30px;}
+.modals-md .modals-body {width: 600px;position: absolute;left: 0;right: 0;margin: 0 auto;padding: 45px 30px 30px;}
 
 
 
@@ -58,19 +58,19 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .thumbnail{border-radius: 100%;} 
 .thumbnail-icon{position: absolute;right: -5px;bottom: 0;width: 18px;}
 
-.center-box{position: absolute;display: flex;width: 100%;max-width: 65vh;max-height: calc(100vh - 80px);left: 0;right: 0;margin: 0 auto;align-items: center;}
+.center-box{position: absolute;display: flex;width: 100%;max-width: 65vh;max-height: calc(100vh - 100px);left: 0;right: 0;margin: 0 auto;align-items: center;}
 
 .glyph-icon.glyph-xl{ font-size: 1em;}
 .glyph-icon.glyph-xxl{ font-size: 1em;}
 
 .navbar-custom {width: 100%;position: relative;display: flex;justify-content: space-between;}
 .navbar-custom .navbar-custom-brand {max-width: 135px;width: 100%;align-items: inherit;align-self: center;}
-.navbar-custom .navbar-custom-brand.brand_xl {max-width: 17.5vh;min-width: 135px;}
+/* .navbar-custom .navbar-custom-brand.brand_xl {max-width: 17.5vh;min-width: 135px;} */
 .navbar-custom-center {display: flex; justify-content: center;}
 .navbar-custom-right {width: auto;position: absolute;right: 0;top: 7.5px;font-size: 0.66em;}
 .navbar-custom-brand img { position: relative; top: 2px; }
 
-.navbar-lite{ box-shadow: none; background: transparent !important; }
+.navbar-lite{box-shadow: none;background: transparent !important;box-shadow: none !important;}
 .navbar-custom-lite{}
 .navbar-custom-lite.navbar-custom-brand{}
 .navbar-custom-lite.navbar-custom-brand img{}
@@ -86,21 +86,12 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .login .h3{ font-family: 'thaisans_neuesemi_bold'; letter-spacing: 0.5333px; font-size: 1.2em; display: block; }
 
 .modal-welcome{}
-.modal-welcome img.profile{
-    width: 33%;
-    min-width: 150px;
-    min-height: 150px;
-    border-radius: 100%;
-}
-.modal-welcome .modals-body .desc{
-    line-height: 1.1em;
-    margin: 30px 0;
-}
-.modal-welcome .modals-body{
-	background-size: 80%;
-	background-repeat: no-repeat;
-	background-position: center 15%;
-}
+.modal-welcome .profile-box{ width: 150px; position: relative; }
+.modal-welcome .profile-box img.profile{ width: 33%; min-width: 150px; min-height: 150px; border-radius: 100%; }
+.modal-welcome .profile-box img.profile-icon{ width: 30px; height: 30px; right: 5px; bottom: 5px; position: absolute; }
+.modal-welcome .profile-box img.profile-below{ position: absolute; left: 0; right: 0; bottom: -15px; }
+.modal-welcome .modals-body .desc{line-height: 1.1em;margin: 45px 0 30px;}
+.modal-welcome .modals-body{background-size: 90%;background-repeat: no-repeat;background-position: center 15%;}
 
 
 .wizard{background-position: bottom 15px center;background-size: 75vh;background-repeat: no-repeat;padding-top: 30px;}
@@ -189,6 +180,8 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 
 	.navbar{height: 65px;box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.10);}
 	.navbar-custom .navbar-custom-brand { max-width: 120px; }
+	.navbar-custom-right button{font-size: 1.2em;padding: .25rem .5rem;min-width: 110px;position: relative;top: -2px;}
+
 	.footer_bar{ height: 45px !important; }
 
 	.fullpage{ position: relative;height: 100vh;min-height: inherit;}
@@ -210,6 +203,10 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 	.wizard-page_2-artwork{ right: 0; left: 15vw; bottom: 60px; height: 21.5vh; }
 	.wizard-page_2 .h1{padding: 0 15px;line-height: 0.90em;margin: 0 15px !important;}
 
+	.login{font-size: 0.9em;margin-top: 45px;}
+
+	body.bg-img::before{width: 55vw;height: 100vh;background-position: center -10%;}
+	body.bg-img::after{ width: 55vw; background-repeat: no-repeat; height: 45vw; }
 	
  }
 

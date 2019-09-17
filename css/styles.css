@@ -93,32 +93,11 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .modal-welcome .modals-body .desc{line-height: 1.1em;margin: 45px 0 30px;}
 .modal-welcome .modals-body{background-size: 55%;background-repeat: no-repeat;background-position: center 50%;}
 
-.modal-signup .modals-body{
-    padding: 45px 60px;
-    flex-direction: column;
-    justify-content: space-between;
-    display: flex;
-}
-.modal-signup .h1{
-    font-size: 3.2em;
-    line-height: 1;
-    width: 100%;
-}
-.modal-signup .h3{
-	font-size: 1.5em;
-	width: 100%;
-}
-.modal-signup hr{
-    height: 10px;
-    border-top: 0.275em solid #724cdb;
-    width: 3.5em;
-    margin: 15px 0;
-}
-.modal-signup .modals-body-logo{
-    max-width: 165px;
-    min-width: 120px;
-    width: 12.5vw;
-}
+.modal-signup .modals-body{ padding: 45px 60px; flex-direction: column; justify-content: space-between; display: flex; }
+.modal-signup .h1{ font-size: 3.2em; line-height: 1; width: 100%; }
+.modal-signup .h3{ font-size: 1.5em; width: 100%; }
+.modal-signup hr{ height: 10px; border-top: 0.275em solid #724cdb; width: 3.5em; margin: 15px 0; }
+.modal-signup .modals-body-logo{ max-width: 165px; min-width: 120px; width: 12.5vw; }
 
 .wizard{background-position: bottom 15px center;background-size: 75vh;background-repeat: no-repeat;padding-top: 30px;}
 .wizard-page_1{background-size: 65vh;background-position: bottom 15px center;}
@@ -199,6 +178,7 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 	.scroll-view{}
 	.modal-welcome .modals-body{ background-size: 50%; background-position: center 40%; }
 	.modals-md .modals-body{width: 500px;padding: 30px 15px;font-size: 0.85em;}
+	.modal-signup .modals-body{ padding: 45px; max-height: 500px; }
 
 }
 
@@ -242,14 +222,19 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 	.modal-welcome .profile-box img.profile{min-width: 120px;min-height: 120px;}
 	.modal-welcome .modals-body .desc{ margin: 30px 0 15px; }
 	.modal-welcome .profile-box img.profile-icon{ width: 30px; height: 30px; right: 0; bottom: 0; }
-	.modal-signup{}
-	.modal-signup .h1{}
+
+	.modal-signup .h1{ font-size: 2.75em; margin-top: 30px; }
+	.modal-signup .h3{ font-size: 1.25em; }
+	.modal-signup .modals-body{ padding: 30px; }
+	.modal-signup .modals-body-logo{ position: relative; right: 15px; }
 	
  }
 
 @media (max-width: 375px) {
 	h1, h2, .h1, .h2{font-size: 2.225em;}
 	.scroll-view li{ padding: 10px 0px; font-size: 0.9em; }
+	.modal-signup .h1{font-size: 2.66em;margin-top: 30px;}
+	.modal-signup .h3{ font-size: 1.15em; }
 }
 
 

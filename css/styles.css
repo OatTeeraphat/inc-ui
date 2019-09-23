@@ -115,35 +115,39 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .wizard-page_3-dialouge{}
 .wizard-page_3-dialouge .dialouge{width: 35%;display: flex;align-items: flex-end;position: relative;}
 .wizard-page_3-dialouge .dialouge.active{width: 40%;}
-.wizard-page_3-dialouge .dialouge_left{ }
+.wizard-page_3-dialouge .dialouge_left{}
 .wizard-page_3-dialouge .dialouge_right{}
 .wizard-page_3-dialouge .dialouge_right .dialouge_container{position: absolute;width: calc(100% - 90px);height: 2.75em;top: 75px;font-size: 1.25em;line-height: 1.1em;margin: 0 auto;left: 0;right: 0;}
-.wizard-page_3-dialouge .dialouge_right .dialouge_container textarea{width: 100%;border: none;background: transparent;resize: none;font-family: 'thaisans_neuesemi_bold';letter-spacing: 1px;position: relative;z-index: 1;}
+.wizard-page_3-dialouge .dialouge_right .dialouge_container textarea{width: 100%;border: none;background: transparent;resize: none;font-family: 'thaisans_neuesemi_bold';letter-spacing: 1px;position: relative;z-index: 1;font-size: 0.95em;}
 .wizard-page_3-dialouge .dialouge_right .dialouge_container textarea:focus, .wizard-page_3-dialouge .dialouge_right .dialouge_container textarea:active{outline: 0;}
 .wizard-page_3-dialouge .dialouge_right .dialouge_container p{}
 .wizard-page_3-dialouge .dialouge_right.active .dialouge_container{top: 50px;}
-.wizard-page_3-dialouge .dialouge_right .wizard-page_3-btn{font-size: 0.8em;position: relative;height: 30px;float: right;top: -10px;margin-right: 10px;background: none;border: none;min-width: inherit;display: flex;align-items: center;line-height: 1em;}
+.wizard-page_3-dialouge .dialouge_right .wizard-page_3-btn{font-size: 0.75em;position: relative;height: 1.5em;float: right;top: -10px;background: none;border: none;min-width: inherit;display: flex;align-items: center;line-height: 1em;left: -5px;}
 .wizard-page_3-dialouge .dialouge_right .wizard-page_3-btn.btn-light .glyph-icon:before{ font-size: 0.9em; color: #7753e5; line-height: 0.8em; margin-left: 10px; position: relative; top: 1px; }
 .wizard-page_3-dialouge .dialouge_right .wizard-page_3-btn.btn-light:hover{ color: #580789; }
 .wizard-page_3-dialouge .dialouge_right .wizard-page_3-btn.btn-light:active .glyph-icon:before{ color: #7753e5; }
 .wizard-page_3-dialouge .dialouge_right .wizard-page_3-btn.btn-light:hover{color: #7753e5;box-shadow: 0 0 0 0.2rem rgba(216,217,219,.7);background: #e4e4e6;}  
 .wizard-page_3-dialouge .dialouge_right .wizard-page_3-btn.btn-light:active, .wizard-page_3-dialouge .wizard-page_3-dialouge .dialouge_right .wizard-page_3-btn.btn-light:focus{color: #7753e5;background: #ebeced;box-shadow: 0 0 0 0.2rem rgba(216,217,219,.7);}
 .wizard-page_3-dialouge .dialouge_right .wizard-page_3-btn.btn-light {color: #7753e5;background: #ebeced;box-shadow: 0 0 0 0.2rem rgba(216,217,219,.5);}
-.wizard-page_3-dialouge .dialouge_right.active .wizard-page_3-btn{
-    top: 0;
-}
+.wizard-page_3-dialouge .dialouge_right.active .dialouge_container{ font-size: 1.375em; }
+.wizard-page_3-dialouge .dialouge_right.active .wizard-page_3-btn{ /* top: 0; */ }
 
-.wizard-page_3-dialouge .dialouge_left .dialouge_container {width: calc(100% - 120px);position: absolute;top: 85px;margin: 0 auto;min-height: 4em;left: 15px;right: 0px;display: flex;font-family: 'thaisans_neuesemi_bold';}
-.wizard-page_3-dialouge .dialouge_left .dialouge_container p{color: #fff;font-size: 1.375em;line-height: 1.1em;left: 1.5em;margin: 0;letter-spacing: 1.5px;transition: all 0.15s ease;}
-.wizard-page_3-dialouge .dialouge_left p.badges{color: #fff;width: 100%;margin: 0;position: absolute;top: 150px;right: 60px;font-size: 0.9em;letter-spacing: 1px;font-family: 'thaisans_neuesemi_bold';}
+.wizard-page_3-dialouge .dialouge_left .dialouge_container {width: calc(100% - 120px);position: absolute;top: 82.5px;margin: 0 auto;min-height: 4em;left: 15px;right: 0px;display: flex;font-family: 'thaisans_neuesemi_bold';}
+.wizard-page_3-dialouge  .dialouge_container p{color: #fff;font-size: 1.375em;line-height: 1.1em;left: 0;margin: 0;letter-spacing: 1.5px;transition: all 0.15s ease;}
+.wizard-page_3-dialouge .dialouge_left p.badges{color: #fff;width: 100%;margin: 0;position: absolute;bottom: 0;right: 60px;font-size: 0.9em;letter-spacing: 1px;font-family: 'thaisans_neuesemi_bold';}
 .wizard-page_3-dialouge .dialouge_left.active .dialouge_container{top: 50px;}
-.wizard-page_3-dialouge .dialouge_left.active .dialouge_container p{font-size: 1.75em;}
-.wizard-page_3-dialouge .dialouge_left.active p.badges{top: 135px;}
-.wizard-page_3-artwork{width: 35vw;}
+.wizard-page_3-dialouge.active .dialouge_container p{font-size: 1.6em;bottom: -0.66em;}
+.wizard-page_3-dialouge .dialouge_left.active p.badges{font-size: 0.9em;}
+.wizard-page_3-artwork{width: 70vh;position: relative;/* top: -10px; */}
+.wizard-page_3-artwork.mobile{width: 75%;position: absolute;bottom: 0;}
 .wizard-page_3-artwork img{}
 
 .wizard-page_4{overflow: hidden;background-position: center;}
 
+.wizard-page_5{
+    background-size: 70vh;
+    background-position: bottom 30px center;
+}
 
 .scroll-view{}
 .scroll-view-avatar{max-width: 56px;width: 100%;height: 56px;border-radius: 20px;position: relative;display: flex;margin: 10px 15px;}
@@ -202,16 +206,20 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .mobile-view-dialogue_reciver:last-child, .mobile-view-dialogue_sender:last-child {margin-bottom: 0;}
 
 
-.avatar{ }
+.avatar{}
 .avatar .avatar-img{width: 100%;border-radius: 50%;overflow: hidden;}
 .avatar .avatar-brand{width: 0.8em;position: absolute;right: -0.25em;bottom: -0.33em;}
 
 @media (max-width: 1200px){
-	.wizard-page_3-dialouge .dialouge_left .dialouge_container{}
-	.wizard-page_3-dialouge .dialouge_right .dialouge_container{}
+	.wizard-page_3-dialouge .dialouge_left .dialouge_container{
+    top: 45px !important;
+    font-size: 0.85em;
+}
+	.wizard-page_3-dialouge .dialouge_right .dialouge_container{ top: 60px; font-size: 1.1em; left: -5px; }
+	.wizard-page_3-dialouge .dialouge_container{ top: 65px; }
+	.wizard-page_3-dialouge .dialouge{
+}
 
-	.wizard-page_3-dialouge .dialouge{ width: 40%; }
-	.wizard-page_3-dialouge .dialouge.active{width: 45%;}
 }
 
 @media (max-width: 990px) {
@@ -221,6 +229,16 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 	.scroll-view{ max-width: 80vw; }
 
 	.wizard-page_1 {background-size: 90%; background-position: bottom 5px center;}
+	.wizard-page_3-dialouge .dialouge{}
+	.wizard-page_3-dialouge .dialouge.active{ min-width: 475px; font-size: 1.2em; }	
+	.wizard-page_3-dialouge .dialouge_right{ width: 400px; top: -120px; /* left: 50px; */ }
+	.wizard-page_3-dialouge .dialouge_right .dialouge_container{
+    top: 40px;
+}
+	.wizard-page_3-dialouge .dialouge_left{ /* right: 35px; */ top: 15px; }
+	.wizard-page_3-dialouge .dialouge_left .dialouge_container{
+}
+	
 	.wizard-page_2{}
 
 
@@ -288,9 +306,19 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 	.mobile-view .mobile-frame{ width: 100%; min-width: inherit; display: none; }
 	.mobile-view-head{ padding: 1em 1em 0; height: 4.5em; }
 
+	/* .wizard-page_3-dialouge .dialouge.active{min-width: 90%;font-size: 1.2em;top: 0;}	
+	.wizard-page_3-dialouge .dialouge_right{width: 80%;top: -14vh;font-size: 0.9em;}
+	.wizard-page_3-dialouge .dialouge_left.active .dialouge_container{
+    top: 36px !important;
+    font-size: 0.7em;
+    width: calc(100% - 90px);
+}
+.wizard-page_3-dialouge .dialouge_right .dialouge_container{
+    width: calc(100% - 60px);
+    top: 35px;
+} */
 	
  }
-
 
 
 @media (max-width: 375px) {
@@ -309,19 +337,19 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 	.footer_bar{height: 65px!important;}
 	.fullpage-container{height: calc(100vh - 100px);min-height: calc(767px - 100px);}
 
-
 	.wizard{padding-top: 5vh;font-size: 1.25em;}
 	.wizard-page_1 {background-size: 67.5vh;background-position: bottom -5px center;}
-	.wizard-page_3-dialouge .dialouge_left.active .dialouge_container p{font-size: 1.5em;}
 
-	.dialouge_container{font-size: 1em !important;}
-	
+	.dialouge_container{/* font-size: 1em !important; */}
+	.wizard-page_3-dialouge .dialouge, .wizard-page_3-dialouge .dialouge.active{ font-size: 0.85em; }
 	.mobile-view-body{}
+	
 }
 
 @media (min-height: 1281px) {
 
 	.wizard-page_1 {background-size: 77.5vh;background-position: bottom -30px center;font-size: 1.45em;}
+	.wizard-page_3-artwork{width: 60vw;margin-top: 15px;}
 	.mobile-view-body{}
 
 }

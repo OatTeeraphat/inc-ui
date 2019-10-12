@@ -47,7 +47,7 @@
 					<div class="navside-navbar mt-4 d-none d-md-block">
 						<ul>
 							<li class="">
-								<div class="glyph-icon glyph-xl glyph-purple fe fe-settings"></div>ตั้งค่า
+								<div class="glyph-icon glyph-xl glyph-purple fe fe-more-vertical"></div>ตั้งค่า
 							</li>
 							<li class="">
 								<div class="glyph-icon glyph-xl glyph-purple fe fe-info"></div>คู่มือการใช้
@@ -112,19 +112,19 @@
 								<div class="story-box-intent_container">
 									<div class="story-box-intent">
 										<p class="intent">แนะนำหน่อย</p>
-										<i class="glyph-icon glyph-xl fe fe-settings"></i>
+										<i class="glyph-icon glyph-xl fe fe-more-vertical"></i>
 									</div>
 									<div class="story-box-intent">
 										<p class="intent">ไซต์ สี ลาย</p>
-										<i class="glyph-icon glyph-xl fe fe-settings"></i>
+										<i class="glyph-icon glyph-xl fe fe-more-vertical"></i>
 									</div>
 									<div class="story-box-intent">
 										<p class="intent">แฟชั่นเสื้อผ้า</p>
-										<i class="glyph-icon glyph-xl fe fe-settings"></i>
+										<i class="glyph-icon glyph-xl fe fe-more-vertical"></i>
 									</div>
 									<div class="story-box-intent">
 										<p class="intent">เสื้อผ้าชาย</p>
-										<i class="glyph-icon glyph-xl fe fe-settings"></i>
+										<i class="glyph-icon glyph-xl fe fe-more-vertical"></i>
 									</div>
 									<div class="story-box-add">
 										<button class="btn-lite">
@@ -146,19 +146,19 @@
 								<div class="story-box-intent_container">
 									<div class="story-box-intent">
 										<p class="intent">แนะนำหน่อย</p>
-										<i class="glyph-icon glyph-xl fe fe-settings"></i>
+										<i class="glyph-icon glyph-xl fe fe-more-vertical"></i>
 									</div>
 									<div class="story-box-intent">
 										<p class="intent">ไซต์ สี ลาย</p>
-										<i class="glyph-icon glyph-xl fe fe-settings"></i>
+										<i class="glyph-icon glyph-xl fe fe-more-vertical"></i>
 									</div>
 									<div class="story-box-intent">
 										<p class="intent">แฟชั่นเสื้อผ้า</p>
-										<i class="glyph-icon glyph-xl fe fe-settings"></i>
+										<i class="glyph-icon glyph-xl fe fe-more-vertical"></i>
 									</div>
 									<div class="story-box-intent">
 										<p class="intent">เสื้อผ้าชาย</p>
-										<i class="glyph-icon glyph-xl fe fe-settings"></i>
+										<i class="glyph-icon glyph-xl fe fe-more-vertical"></i>
 									</div>
 									<div class="story-box-add">
 										<button class="btn-lite">
@@ -219,8 +219,8 @@
 					</div>
 					<div class="modals-content">
 						<div class="row">
-							<div class="col-12 col-md-5">
-								<div class="mobile-view">
+							<div class="col-12 col-lg-5 d-none d-lg-block">
+								<div class="mobile-view mobile-story">
 									<div class="mobile-view-warp">
 										<img class="mobile-frame" src="./src/www/util_mobile_frame.png" draggable="false" alt="">
 										<div class="mobile-view-body">
@@ -295,7 +295,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-12 col-md-7">
+							<div class="col-12 col-lg-7">
 								<div class="modals-content-head">
 									<p class="h1">แนะนำหน่อย</p>
 									<p class="text-purple">ไปยังคลังสตอรี่</p>
@@ -307,7 +307,7 @@
 										อพาร์ทเมนต์ไฮเวย์เวิลด์นาฏยศาลาเพาเวอร์
 									</div>
 									
-									<div class="collapse-box">
+									<!-- <div class="collapse-box">
 										 <div class="collapse-box-head">
 											<p>คำตอบจากผู้ขาย</p>
 											<div class="badge badge-primary badge-purple">
@@ -321,7 +321,7 @@
 												<li>เลือกได้ตามรายการสินค้าเลยนะครับ</li>
 											</ul>
 										</div>
-									</div>
+									</div> -->
 									
 									<div class="collapse-box">
 										<div class="collapse-box-head">
@@ -349,23 +349,40 @@
 										<div class="collapse-box-body">
 											<div class="stroy-box-content">
 												<div class="story-box-intent_container story-box-object">
-													<div class="story-box-intent">
-														<p class="intent">แนะนำหน่อย</p>
-														<p class="desc">แนะนำหน่อย</p>
-														<i class="glyph-icon glyph-xl fe fe-settings"></i>
-													</div>
-													<div class="story-box-intent">
-														<p class="intent">ไซต์ สี ลาย</p>
-														<i class="glyph-icon glyph-xl fe fe-settings"></i>
-													</div>
-													<div class="story-box-intent">
-														<p class="intent">แฟชั่นเสื้อผ้า</p>
-														<i class="glyph-icon glyph-xl fe fe-settings"></i>
-													</div>
-													<div class="story-box-intent">
-														<p class="intent">เสื้อผ้าชาย</p>
-														<i class="glyph-icon glyph-xl fe fe-settings"></i>
-													</div>
+													<ul>
+														<li>
+															<span class="story-box-intent">
+																<img class="icon" src="./src/www/object_carousel_icon.svg" alt="">
+																<p class="intent">แนะนำหน่อย</p>
+																<p class="desc">การ์ดรายการ</p>
+																<i class="glyph-icon glyph-xl fe fe-more-vertical"></i>
+															</span>
+														</li>
+														<li>
+															<span class="story-box-intent">
+																<img class="icon" src="./src/www/object_carousel_icon.svg" alt="">
+																<p class="intent">แนะนำหน่อย</p>
+																<p class="desc">การ์ดรายการ</p>
+																<i class="glyph-icon glyph-xl fe fe-more-vertical"></i>
+															</span>
+														</li>
+														<li>
+															<span class="story-box-intent">
+																<img class="icon" src="./src/www/object_carousel_icon.svg" alt="">
+																<p class="intent">แนะนำหน่อย</p>
+																<p class="desc">การ์ดรายการ</p>
+																<i class="glyph-icon glyph-xl fe fe-more-vertical"></i>
+															</span>
+														</li>
+														<li>
+															<span class="story-box-intent">
+																<img class="icon" src="./src/www/object_carousel_icon.svg" alt="">
+																<p class="intent">แนะนำหน่อย</p>
+																<p class="desc">การ์ดรายการ</p>
+																<i class="glyph-icon glyph-xl fe fe-more-vertical"></i>
+															</span>
+														</li>
+													</ul>
 												</div>
 											</div>
 										</div>

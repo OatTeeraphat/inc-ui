@@ -269,7 +269,7 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .story-box-intent .intent{margin-bottom: 0;font-family: 'thaisans_neuesemi_bold';transition: all .2s ease;}
 
 .story-box-intent i{position: absolute;right: -3px;top: 5px;color: #000000;opacity: 0;transition: all 0.2s ease;padding: 5px;}
-.story-box-intent_container{ padding: 0 15px; display: flex; flex-wrap: wrap; }
+.story-box-intent_container{padding: 0 15px;display: flex;flex-wrap: wrap;overflow-x: auto;overflow-y: hidden;}
 .story-box-intent:hover { top: 2px; }
 .story-box-intent:hover i{opacity: 1;color: #9E9E9E;border-radius: 50%;}
 .story-box-intent:hover .intent{ font-size: 1.05em; }
@@ -290,8 +290,10 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .story-box-object .story-box-intent .desc{ line-height: 1; margin: 0; font-size: 0.7em; font-family: 'thaisans_neuesemi_bold'; }
 .story-box-object .story-box-intent .i{}
 .story-box-object .story-box-intent img.icon{ width: 3em; margin-bottom: 15px; margin-top: 10px; }
-.story-box-object ul{}
-.story-box-object li{ padding: 0; margin: 0; border: none; display: inline-block; }
+.story-box-object ul{
+    display: block;
+}
+.story-box-object li{padding: 0;margin: 0;border: none;display: inline-block;border: none !important;padding: 0 !important;}
 
 .modals-head{ display: flex; align-items: center; }
 .modals-head button{ align-items: center; display: flex; font-size: 1.2em; }
@@ -305,7 +307,7 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .modals-content-head button{width: 100%;text-align: left;padding-left: 30px;display: flex;align-items: center;height: 2.5em;}
 .modals-content-head button p{ margin-bottom: 0; margin-left: 15px; position: relative; top: 2px; }
 .modals-content-head button i{}
-.modals-content-body{padding: 30px;}
+.modals-content-body{padding: 0 30px;}
 .modals-content-body .desc{font-size: 0.9em;line-height: 1.3em;}
 
 .collapse-box{ margin-top: 30px; }
@@ -321,6 +323,8 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 .collapse-box-body li:last-child{ border: none; }
 .collapse-box-body li p{}
 
+.collapse-box-body textarea{width: 100%;border: none;border-radius: 5px;padding: 5px 15px;resize: none;transition: all 0.15s ease;margin-bottom: -15px;letter-spacing: 0.9px;}
+.collapse-box-body textarea:focus,.collapse-box-body textarea:active{ outline: 0; background: #E7E1FB; }
 
 
 

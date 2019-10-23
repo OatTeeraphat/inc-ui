@@ -49,15 +49,12 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 }
 .modals-body{width: 100%;background: #fff;min-height: 300px;max-width: 1600px;border-radius: 5px;box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);}
 .modals-md{width: 100vw;height: 100vh;position: fixed;top: 0;background: rgba(0, 0, 0, 0.5);display: flex;align-items: center;justify-content: center;z-index: 1;}
-.modals-md .modals-body {width: 630px;height: 630px;position: absolute;top: calc(50vh - 27.5%);left: 0;right: 0;margin: 0 auto;padding: 45px 30px;font-size: 1.125em;}
+.modals-md .modals-body {width: 630px;height: 630px;position: absolute;top: calc(8vh);left: 0;right: 0;margin: 0 auto;padding: 45px 30px;font-size: 1.125em;}
 
 
 /* box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.10); */
 
-.glyph-2x{};
-
-
-.fullpage{ position: relative;height: 100vh;min-height: 767px;}
+.fullpage{ position: relative; height: 100vh; min-height: 767px;}
 .fullpage-container{height: calc(100vh - 80px);min-height: calc(100vh - 80px);position: relative;top: 80px;}
 .fullpage-container > div {height: 100%;}
 
@@ -383,7 +380,7 @@ strong.purple{font-family: 'thaisans_neuesemi_bold';color: #744cdc;}
 	.dropdown-primary{max-width: 90vw;margin: 0 auto;}
 	.scroll-view{}
 	.modal-welcome .modals-body{ background-size: 50%; background-position: center 40%; }
-	.modals-md .modals-body{width: 500px;padding: 30px 15px;font-size: 0.85em; box-shadow: 0px -1px 10px #f1f1f1;}
+	.modals-md .modals-body{width: 500px;height: 560px;top: 17.5%;padding: 30px 15px;font-size: 0.85em;box-shadow: 0px -1px 10px #f1f1f1;}
 	.modal-signup .modals-body{ padding: 45px; max-height: 500px; }
 
 	.warpper .navbar .col{ padding: 0 10px; }
